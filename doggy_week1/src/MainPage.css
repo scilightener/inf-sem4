@@ -1,0 +1,28 @@
+.letter-span {
+  column-count: auto;
+  column-width: 28rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  margin: 40px;
+  padding: 60px 30px 30px 30px;
+  box-shadow: 0px 0px 30px .5px rgba(0, 0, 0, .15);
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+@media screen and (max-width: 620px) {
+  .letter-span {
+    margin: 10px;
+    padding: 30px 10px 10px 10px;
+  }
+}
