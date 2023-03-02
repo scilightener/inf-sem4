@@ -33,4 +33,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.Run(async ctx =>
+{
+    app.Logger.LogInformation(ctx.Request.Path);
+});
+
 app.Run();

@@ -7,9 +7,9 @@ import axios from "axios";
 
 const { Meta } = Card;
 const ranges = {
-  "weight": [0, 100],
-  "height": [0, 100],
-  "age": [0, 100],
+  "weight": [0, 91],
+  "height": [0, 89],
+  "age": [0, 20],
   "name": [0, 25]
 }
 
