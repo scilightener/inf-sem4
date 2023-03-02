@@ -13,7 +13,7 @@ namespace doggies_week2.Controllers;
 public class MailController : ControllerBase
 {
     private const string BotEmailAddress = "aoaoaoheyyoaoaoao@gmail.com";
-    private const string BotAccountPassword = "vfgiyfitttpzcegr";
+    private const string BotAccountPassword = "oozwtpdpdkkyrjut";
 
     [HttpPost("send")]
     public async Task<IActionResult> SendEmailToVisitor([FromBody] JsonElement body)
