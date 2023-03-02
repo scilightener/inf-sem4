@@ -21,6 +21,19 @@ a {
   break-inside: avoid;
 }
 
+.filter-span {
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filter {
+  width: 100%;
+}
+
 @media screen and (max-width: 620px) {
   .dogs-span {
     margin: 10px;
