@@ -15,7 +15,7 @@ const ReviewPage = () => {
         setIsSending(true);
         try {
             const resp = await axios.post('https://localhost:7018/mail/send', {
-                from: values.from,
+                to: values.to,
                 subject: values.subject,
                 message: values.message
             }, {
@@ -51,7 +51,7 @@ const ReviewPage = () => {
                 onFinish={onFinish}
             >
                 <Form.Item
-                    name={'from'}
+                    name={'to'}
                     label="Email"
                     rules={[
                         {
